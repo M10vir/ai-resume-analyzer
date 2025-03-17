@@ -28,26 +28,29 @@ The **AI-Powered Resume Analyzer & Interview Coach** is a cutting-edge AI soluti
 
 ---
 
-## 🏗️ Project Structure  
-📦 ai-resume-analyzer
-┣ 📂 .github/            # GitHub workflows, issue templates
-┣ 📂 backend/            # Backend API & AI processing
-┃ ┣ 📂 app/
-┃ ┃ ┣ 📂 models/        # AI models for resume analysis & interviews
-┃ ┃ ┣ 📂 routes/        # API endpoints for processing resumes & interviews
-┃ ┃ ┣ 📂 services/      # Azure AI integrations
-┃ ┃ ┣ 📜 main.py        # FastAPI entry point
-┃ ┣ 📜 requirements.txt  # Backend dependencies
-┣ 📂 frontend/          # Web UI (React / Vue.js / Angular)
-┃ ┣ 📂 components/
-┃ ┣ 📂 pages/
-┃ ┣ 📜 App.js
-┣ 📂 docs/             # Documentation (API references, setup guides)
-┣ 📂 tests/            # Unit & integration tests
-┣ 📂 deployments/      # Azure Bicep / Terraform for infrastructure
-┣ 📜 README.md         # Project overview, setup guide
-┣ 📜 CONTRIBUTING.md   # Contribution guidelines
-┣ 📜 LICENSE           # License file
-┣ 📜 .gitignore        # Ignore files/folders
-┣ 📜 docker-compose.yml # Docker container setup
-┣ 📜 azure-pipelines.yml # Azure DevOps CI/CD pipeline
+\```
+##  AI Resume Analyzer
+
+📦 ai-resume-analyzer  
+┣ 📂 .github/             # GitHub workflows, issue templates  
+┣ 📂 backend/             # Backend API & AI processing  
+┃ ┣ 📂 app/  
+┃ ┃ ┣ 📂 models/          # AI models for resume analysis & interviews  
+┃ ┃ ┣ 📂 routes/          # API endpoints for processing resumes & interviews  
+┃ ┃ ┣ 📂 services/        # Azure AI integrations  
+┃ ┃ ┣ 📜 main.py          # FastAPI entry point  
+┃ ┣ 📜 requirements.txt   # Backend dependencies  
+┣ 📂 frontend/            # Web UI (React / Vue.js / Angular)  
+┃ ┣ 📂 components/  
+┃ ┣ 📂 pages/  
+┃ ┣ 📜 App.js  
+┣ 📂 docs/                # Documentation (API references, setup guides)  
+┣ 📂 tests/               # Unit & integration tests  
+┣ 📂 deployments/         # Azure Bicep / Terraform for infrastructure  
+┣ 📜 README.md            # Project overview, setup guide  
+┣ 📜 CONTRIBUTING.md      # Contribution guidelines  
+┣ 📜 LICENSE              # License file  
+┣ 📜 .gitignore           # Ignore files/folders  
+┣ 📜 docker-compose.yml   # Docker container setup  
+┣ 📜 azure-pipelines.yml  # Azure DevOps CI/CD pipeline  
+
