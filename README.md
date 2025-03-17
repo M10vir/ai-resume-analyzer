@@ -1,9 +1,6 @@
 # 🏆 AI-Powered Resume Analyzer & Interview Coach
 🚀 Revolutionizing the Job Hiring Process with AI!
 
-# 🏆 AI-Powered Resume Analyzer & Interview Coach  
-🚀 **Revolutionizing Hiring with AI!**  
-
 ![Azure AI Hackathon](https://your-thumbnail-image-url.com)  
 
 ## 📌 Overview  
