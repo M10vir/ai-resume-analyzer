@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+azure-ai-formrecognizer
+azure-cognitiveservices-speech
+openai
+python-dotenv
