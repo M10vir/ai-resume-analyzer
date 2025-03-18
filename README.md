@@ -28,6 +28,7 @@ The **AI-Powered Resume Analyzer & Interview Coach** is a cutting-edge AI soluti
 
 ---
 \```
+
 ## AI Resume Analyzer 
 📦 ai-resume-analyzer
  ┣ 📂 .github/workflows/            # GitHub Actions CI/CD workflows
