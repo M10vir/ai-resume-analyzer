@@ -27,36 +27,38 @@ The **AI-Powered Resume Analyzer & Interview Coach** is a cutting-edge AI soluti
 🔹 **DevOps & CI/CD:** Azure DevOps / GitHub Actions  
 
 ---
-\```
 
-## AI Resume Analyzer 
-📦 ai-resume-analyzer
- ┣ 📂 .github/workflows/            # GitHub Actions CI/CD workflows
- ┃ ┣ 📜 ci.yml                       # GitHub Actions for testing & deployment
- ┣ 📂 backend/                        # Backend API & AI processing
- ┃ ┣ 📂 app/                          
- ┃ ┃ ┣ 📂 models/                    # AI models for resume/interview analysis
- ┃ ┃ ┣ 📂 routes/                    # API endpoints for resume & interviews
- ┃ ┃ ┣ 📂 services/                  # Azure AI integrations
- ┃ ┃ ┣ 📜 main.py                     # FastAPI entry point
- ┃ ┣ 📜 requirements.txt              # Backend dependencies
- ┣ 📂 frontend/                        # Web UI (React / Vue.js / Angular)
- ┃ ┣ 📂 components/                   
- ┃ ┣ 📂 pages/                        
- ┃ ┣ 📜 App.js                        
- ┣ 📂 tests/                           # 🛠️ Test files (NEW!)
- ┃ ┣ 📜 test_api_endpoints.py          # API tests for CI/CD
- ┃ ┣ 📜 test_speech_analysis.py        # AI speech evaluation tests
- ┃ ┣ 📜 test_resume_parsing.py         # OCR-based resume parsing tests
- ┣ 📂 docs/                             # Documentation (API references, setup guides)
- ┣ 📂 deployments/                      # Azure Bicep / Terraform for infrastructure
- ┣ 📜 test_api.py                       # Standalone script for manual API testing (NEW!)
- ┣ 📜 test_api.http                      # API test requests for VS Code REST Client (NEW!)
- ┣ 📜 README.md                         # Project overview, setup guide
- ┣ 📜 CONTRIBUTING.md                   # Contribution guidelines
- ┣ 📜 LICENSE                           # License file
- ┣ 📜 .gitignore                        # Ignore files/folders
- ┣ 📜 docker-compose.yml                 # Docker container setup
- ┣ 📜 azure-pipelines.yml                # Azure DevOps CI/CD pipeline
+# AI Resume Analyzer
+
+📦 ai-resume-analyzer  
+┣ 📂 .github/workflows/       # GitHub Actions CI/CD workflows  
+┃ ┣ 📜 ci.yml                 # GitHub Actions for testing & deployment  
+┣ 📂 backend/                 # Backend API & AI processing  
+┃ ┣ 📂 app/  
+┃ ┃ ┣ 📂 models/              # AI models for resume/interview analysis  
+┃ ┃ ┣ 📂 routes/              # API endpoints for resume & interviews  
+┃ ┃ ┣ 📂 services/            # Azure AI integrations  
+┃ ┃ ┣ 📜 main.py              # FastAPI entry point  
+┃ ┣ 📜 requirements.txt       # Backend dependencies  
+┣ 📂 frontend/                # Web UI (React / Vue.js / Angular)  
+┃ ┣ 📂 components/  
+┃ ┣ 📂 pages/  
+┃ ┣ 📜 App.js  
+┣ 📂 tests/                   # 🛠️ Test files (NEW!)  
+┃ ┣ 📜 test_api_endpoints.py  # API tests for CI/CD  
+┃ ┣ 📜 test_speech_analysis.py# AI speech evaluation tests  
+┃ ┣ 📜 test_resume_parsing.py # OCR-based resume parsing tests  
+┣ 📂 docs/                    # Documentation (API references, setup guides)  
+┣ 📂 deployments/             # Azure Bicep / Terraform for infrastructure  
+┣ 📜 test_api.py              # Standalone script for manual API testing (NEW!)  
+┣ 📜 test_api.http            # API test requests for VS Code REST Client (NEW!)  
+┣ 📜 README.md                # Project overview, setup guide  
+┣ 📜 CONTRIBUTING.md          # Contribution guidelines  
+┣ 📜 LICENSE                  # License file  
+┣ 📜 .gitignore               # Ignore files/folders  
+┣ 📜 docker-compose.yml       # Docker container setup  
+┣ 📜 azure-pipelines.yml      # Azure DevOps CI/CD pipeline  
+
+---
 
 CI/CD Test Update
